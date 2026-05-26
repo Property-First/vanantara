@@ -22,7 +22,7 @@ async function sendEmail(to: string[], subject: string, html: string, replyTo?: 
       "Content-Type": "application/json",
     },
     body: JSON.stringify({
-      from: "Vaibhav Leads / Godrej Vanantara <info@preferredpartner.co>",
+      from: "Vaibhav Google Leads / Godrej Vanantara <info@preferredpartner.co>",
       to,
       subject,
       html,
@@ -52,7 +52,7 @@ export async function POST(request: Request) {
       realIp ||
       "Unknown"
 
-    console.log("User IP:", ip)
+    // console.log("User IP:", ip)
 
     // Validate required fields
     if (!name || !email || !phone) {
@@ -76,8 +76,7 @@ export async function POST(request: Request) {
     // console.log("Name:", name)
     // console.log("Email:", email)
     // console.log("Phone:", phone)
-    // console.log("Configuration:", configuration || "Not specified")
-    // console.log("Message:", message || "No message")
+    
     // console.log("Timestamp:", new Date().toISOString())
     // console.log("===================")
 
@@ -85,7 +84,7 @@ export async function POST(request: Request) {
     const salesEmail = process.env.SALES_EMAIL?.split(",") || []
     await sendEmail(
       salesEmail,
-      `New Enquiry from ${name} - Godrej Aveline`,
+      `New Enquiry from ${name} - Godrej Vanantara`,
       `
         <div style="font-family: Arial, sans-serif; max-width: 600px; margin: 0 auto;">
           <h2 style="color: #a67c52; border-bottom: 2px solid #a67c52; padding-bottom: 10px;">
