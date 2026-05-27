@@ -3,7 +3,7 @@ import { Building, MapPin, Trees, Shield } from "lucide-react"
 const features = [
   {
     icon: Building,
-    title: "55 Units+",
+    title: "2000 Units+",
     description: "Premium Residences"
   },
   {
@@ -14,11 +14,11 @@ const features = [
   {
     icon: MapPin,
     title: "Metro Access",
-    description: "Agrahara Metro Station "
+    description: "Kalena Metro Station "
   },
   {
     icon: Shield,
-    title: "58+",
+    title: "100+",
     description: "World-Class Amenities"
   }
 ]
