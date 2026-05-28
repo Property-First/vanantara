@@ -14,7 +14,7 @@ import { useState } from "react"
 import { EnquiryPopup } from "./enquiry-popup"
 
 const configurations = [
-  { type: "2BHK ", area: "1288 sq.ft", price: "₹1.49 Cr*" },
+  { type: "2BHK ", area: "1288 sq.ft", price: "₹1.28 Cr*" },
   { type: "3BHK + 2T ", area: "1650 sq.ft", price: "On Request" },
   { type: "3BHK + 3T", area: "1980 sq.ft ", price: "On Request" },
   { type: "4.5BHK", area: "2900 sq.ft", price: "On Request" },
