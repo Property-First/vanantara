@@ -120,7 +120,7 @@ export async function POST(request: Request) {
           </table>
           
           <p style="color: #666; font-size: 12px; margin-top: 30px;">
-            This enquiry was submitted via the Godrej Aveline website.
+            This enquiry was submitted via the Godrej Vanantara website.
           </p>
         </div>
       `,

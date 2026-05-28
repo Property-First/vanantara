@@ -16,7 +16,7 @@ export function Hero() {
   {/* Desktop Image */}
   <Image
     src="/godrej_vantara_web.png"
-    alt="Godrej Aveline luxury apartments"
+    alt="Godrej Vanantara luxury apartments"
     fill
     priority
 // width={100}
@@ -27,7 +27,7 @@ export function Hero() {
   {/* Mobile Image */}
   <Image
     src="/vanantara (1).png"
-    alt="Godrej Aveline luxury apartments"
+    alt="Godrej Vanantara luxury apartments"
     fill
     priority
     // width={100}

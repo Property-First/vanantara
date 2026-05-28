@@ -13,7 +13,7 @@ export function StickyCTA() {
       <div className="fixed bottom-0 left-0 right-0 z-50 lg:hidden bg-foreground border-t border-border">
         <div className="grid grid-cols-3 divide-x divide-background/10">
           <Link
-            href="https://wa.me/918971140300?text=Hi%20I%20am%20interested%20in%20the%20Godrej%20Aveline%20project.%20Please%20share%20brochure,%20price%20details,%20floor%20plans,%20and%20site%20visit%20information."
+            href="https://wa.me/918971140300?text=Hi%20I%20am%20interested%20in%20the%20Godrej%20Vanantara%20project.%20Please%20share%20brochure,%20price%20details,%20floor%20plans,%20and%20site%20visit%20information."
             target="_blank"
             rel="noopener noreferrer"
             className="flex flex-col items-center justify-center py-3 text-background hover:bg-background/5 transition-colors"

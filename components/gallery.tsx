@@ -39,7 +39,7 @@ export function Gallery() {
             Gallery
           </h2>
           <p className="text-muted-foreground max-w-2xl mx-auto">
-            Explore our stunning collection of images showcasing the elegance and sophistication of Godrej Aveline.
+            Explore our stunning collection of images showcasing the elegance and sophistication of Godrej Vanantara.
           </p>
         </div>
 
