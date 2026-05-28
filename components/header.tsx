@@ -8,6 +8,7 @@ import Link from "next/link"
 import Image from "next/image"
 import { EnquiryPopup } from "./enquiry-popup"
 
+
 const navItems = [
   { label: "Overview", href: "#overview" },
   { label: "Configuration", href: "#configuration" },
@@ -56,10 +57,10 @@ export function Header() {
           </Button>
 
           <Sheet open={isOpen} onOpenChange={setIsOpen}>
-            <SheetTrigger asChild className="lg:hidden">
-              <Button variant="ghost" size="icon">
+            <SheetTrigger className="lg:hidden inline-flex items-center justify-center rounded-md p-2 hover:bg-accent text-foreground h-10 w-10" >
+              {/* <Button variant="ghost" size="icon"  className="lg:hidden"> */}
                 <Menu className="h-5 w-5" />
-              </Button>
+              {/* </Button> */}
             </SheetTrigger>
             <SheetContent side="right" className="w-80">
               <nav className="flex flex-col gap-4 p-16 mt-8">

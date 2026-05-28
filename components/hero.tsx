@@ -19,6 +19,8 @@ export function Hero() {
     alt="Godrej Aveline luxury apartments"
     fill
     priority
+// width={100}
+// height={100}
     className="object-cover hidden md:block"
   />
 
@@ -28,6 +30,8 @@ export function Hero() {
     alt="Godrej Aveline luxury apartments"
     fill
     priority
+    // width={100}
+    // height={100}
     className="object-cover block md:hidden"
   />
 </div>
